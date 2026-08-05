@@ -6,7 +6,7 @@ import { Eyebrow, SectionHeader } from "@/components/Section";
 import { facilities, clubs } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Programs — Nursery, Primary & Secondary in Port Harcourt",
+  title: "Programs: Nursery, Primary & Secondary in Port Harcourt",
   description:
     "Surebloom offers a full Montessori education from nursery through secondary school in Port Harcourt.",
 };
@@ -18,13 +18,13 @@ const programs = [
     level: "Nursery",
     tagline: "Where wonder begins.",
     image: "/images/girl.jpg",
-    lede: "The foundation years — when children build the person they will become. Independence, concentration, coordination, and language, in an environment prepared to their scale.",
+    lede: "The foundation years, when children build the person they will become. Independence, concentration, coordination, and language, in an environment prepared to their scale.",
     subjects: [
-      { t: "Practical life", d: "Pouring, sweeping, buttoning, food prep — the small acts that build a whole child." },
+      { t: "Practical life", d: "Pouring, sweeping, buttoning, food prep: the small acts that build a whole child." },
       { t: "Sensorial materials", d: "Trained perception: colour, sound, weight, texture. The senses as instruments of learning." },
       { t: "Early language", d: "Sandpaper letters, moveable alphabet, spontaneous reading and writing." },
       { t: "Early mathematics", d: "Concrete quantity before symbol. Numbers you can hold in your hands." },
-      { t: "Cultural studies", d: "Geography, botany, zoology, music, art — the world in miniature." },
+      { t: "Cultural studies", d: "Geography, botany, zoology, music, art: the world in miniature." },
     ],
   },
   {
@@ -33,13 +33,13 @@ const programs = [
     level: "Primary",
     tagline: "Where questions grow big.",
     image: "/images/library.jpg",
-    lede: "The years of the reasoning mind. We introduce the &lsquo;great lessons&rsquo; — the story of the universe, of life, of humans, of language, of numbers — and everything else grows from these roots.",
+    lede: "The years of the reasoning mind. We introduce the &lsquo;great lessons&rsquo;: the story of the universe, of life, of humans, of language, of numbers. Everything else grows from these roots.",
     subjects: [
       { t: "Language arts", d: "Composition, grammar, literature, and the discipline of the essay." },
-      { t: "Mathematics", d: "From bead chains to algebra — always concrete first, abstract when ready." },
-      { t: "Sciences", d: "Botany, zoology, physical science, chemistry — with real experiments." },
+      { t: "Mathematics", d: "From bead chains to algebra, always concrete first and abstract when ready." },
+      { t: "Sciences", d: "Botany, zoology, physical science, chemistry, with real experiments." },
       { t: "History & geography", d: "Timelines of civilizations. Physical, political, economic geography." },
-      { t: "The arts", d: "Music, visual art, dance, drama — not extras, but core." },
+      { t: "The arts", d: "Music, visual art, dance, drama: not extras, but core." },
       { t: "French Club", d: "Introducing a second language through weekly sessions and cultural activities." },
     ],
   },
@@ -49,14 +49,14 @@ const programs = [
     level: "Secondary",
     tagline: "Where character takes shape.",
     image: "/images/highschool.jpg",
-    lede: "The adolescent years, taken seriously. A blend of Nigerian and British curriculum prepares our pupils for the WAEC/SSCE and university entry — while service, leadership, and self-authorship prepare them for a life.",
+    lede: "The adolescent years, taken seriously. A blend of Nigerian and British curriculum prepares our pupils for the WAEC/SSCE and university entry, while service, leadership, and self-authorship prepare them for life beyond it.",
     subjects: [
-      { t: "Core academics", d: "English, mathematics, sciences, humanities — combining Nigerian and British curriculum standards, aligned with WAEC/SSCE." },
+      { t: "Core academics", d: "English, mathematics, sciences, humanities, combining Nigerian and British curriculum standards and aligned with WAEC/SSCE." },
       { t: "Boarding house", d: "Boarding available for secondary pupils, with pastoral care, structured evening study, and community life." },
       { t: "Electives & specialisation", d: "Pupils shape their programme around emerging interests." },
       { t: "Community & service", d: "Real work in the world beyond the school gate." },
       { t: "Leadership development", d: "Pupil government, mentorship of younger children, public speaking." },
-      { t: "Clubs", d: "Debate, Coding & Robotics, Chess, Music & Choir, Drama, Dance, Journalism, and more — see the full list below." },
+      { t: "Clubs", d: "Debate, Coding & Robotics, Chess, Music & Choir, Drama, Dance, Journalism, and more. See the full list below." },
     ],
   },
 ];
@@ -82,14 +82,14 @@ function PageHero() {
         <div className="max-w-4xl">
           <Eyebrow>Programs</Eyebrow>
           <h1 className="mt-6 font-display text-display-xl font-medium leading-[1.02] text-navy-950 text-balance">
-            One curriculum,
+            Nursery to secondary,
             <br />
             <span className="italic text-navy-700">fifteen years</span> of growth.
           </h1>
           <p className="mt-8 max-w-2xl text-[18px] leading-relaxed text-ink-500 text-pretty">
-            Every level of Surebloom is designed as one continuous journey — from
-            the child who first walks into our nursery, to the young adult who
-            walks out of our secondary school ready for the world.
+            Every level of Surebloom is designed as one continuous journey,
+            from the child who first walks into our nursery to the young adult
+            who walks out of our secondary school ready for the world.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <span className="inline-flex items-center gap-2 rounded-full bg-navy-950 px-4 py-2 text-[12px] font-medium tracking-tight text-cream-50">
@@ -172,8 +172,9 @@ function ClubsBlock() {
               <span className="italic text-navy-700"> classroom.</span>
             </h2>
             <p className="mt-6 text-[16.5px] leading-relaxed text-ink-500 max-w-md">
-              Every child finds their people, their passion, and often their
-              purpose — in one of our clubs. Membership rotates each term.
+              Clubs are where children find friends who share their interests,
+              outside the usual classroom day. Membership rotates each term,
+              so there&apos;s always something new to try.
             </p>
           </div>
           <ul className="grid grid-cols-2 sm:grid-cols-3 gap-3">
@@ -204,7 +205,7 @@ function FacilitiesBlock() {
         <SectionHeader
           eyebrow="Facilities"
           title={<>Built for how children <span className="italic text-navy-700">actually</span> learn.</>}
-          intro="Our school is designed as an extended classroom — every corner an invitation to discover."
+          intro="Every space on our compound is set up for hands-on learning, not just the classrooms."
         />
         <ul className="mt-14 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-6 gap-y-4">
           {facilities.map((f) => (
@@ -229,8 +230,8 @@ function ContinuumBlock() {
       <Container>
         <SectionHeader
           eyebrow="The continuum"
-          title={<>Fifteen years of one child, one story.</>}
-          intro="Children who spend their whole education at Surebloom grow up as one community — younger children learning from older, older children shaping the next generation."
+          title={<>One school, from nursery to secondary.</>}
+          intro="Children who spend their whole education at Surebloom grow up as one community: younger children learning from older, older children shaping the next generation."
           className="[&_.text-navy-900\/70]:text-cream-50/85 [&_.bg-navy-900\/40]:bg-cream-50/40 [&_h2]:text-cream-50 [&_p]:text-cream-100/85"
         />
         <div className="mt-16 grid grid-cols-3 items-end gap-4">

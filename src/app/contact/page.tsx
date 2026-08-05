@@ -6,7 +6,7 @@ import { InquiryForm } from "@/components/InquiryForm";
 import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Contact & Visit — Port Harcourt",
+  title: "Contact & Visit: Port Harcourt",
   description:
     "Get in touch with Surebloom International School in Port Harcourt. Schedule an appointment, ask a question, or find directions to our school.",
 };
@@ -99,7 +99,7 @@ function ContactBlock() {
               Send us a message
             </h2>
             <p className="text-[15px] text-ink-500 mb-8">
-              For enrolment, fees, school tours, or any other question — send
+              For enrolment, fees, school tours, or any other question, send
               us a message and we&rsquo;ll reply personally.
             </p>
             <InquiryForm />

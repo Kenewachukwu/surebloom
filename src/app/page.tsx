@@ -44,22 +44,22 @@ function Hero() {
           <div className="mb-6 md:mb-8 inline-flex items-center gap-2.5 rounded-full border border-cream-50/25 bg-cream-50/5 px-3.5 py-1.5 md:px-4 md:py-2 backdrop-blur-sm">
             <span className="h-1.5 w-1.5 rounded-full bg-azure-500" />
             <span className="text-[11px] md:text-[12px] font-medium uppercase tracking-[0.18em] md:tracking-[0.2em] text-cream-50/90">
-              Enrolling for {new Date().getFullYear() + 1} / {String(new Date().getFullYear() + 2).slice(-2)}
+              Admissions open for the {new Date().getFullYear() + 1}/{new Date().getFullYear() + 2} session
             </span>
           </div>
 
           <h1 className="font-display text-display-2xl font-medium leading-[0.95] text-cream-50 text-balance">
-            Excellence,
+            Excellence is our culture.
             <br />
-            <span className="italic text-azure-500">rooted</span> in
+            <span className="italic text-azure-500">Port Harcourt</span> is
             <br />
-            Port Harcourt.
+            our home.
           </h1>
 
           <p className="mt-6 md:mt-8 max-w-xl text-[16px] md:text-[18px] leading-relaxed text-cream-100/85 text-pretty">
-            A Montessori education from nursery through secondary school —
-            raising Nigeria&apos;s next generation of curious, confident, and
-            compassionate leaders.
+            A Montessori school in Port Harcourt for children from nursery
+            through secondary. It&apos;s the same school we&apos;ve been
+            building since {site.founded}.
           </p>
 
           <div className="mt-8 md:mt-10 flex flex-col sm:flex-row sm:flex-wrap sm:items-center gap-3 sm:gap-4">
@@ -101,7 +101,7 @@ function Hero() {
 function TrustBar() {
   const stats = [
     { k: `${new Date().getFullYear() - site.founded}+`, v: "Years since founding" },
-    { k: "3", v: "Levels — Nursery, Primary, Secondary" },
+    { k: "3", v: "Levels: Nursery, Primary, Secondary" },
     { k: `Est. ${site.founded}`, v: "Founded in Port Harcourt" },
   ];
   return (
@@ -154,14 +154,13 @@ function MissionBlock() {
               {" "}Our work is to keep that brilliance alive.
             </h2>
             <p className="mt-8 text-[17px] leading-relaxed text-ink-500 text-pretty">
-              We strongly believe in educating pupils for future success —
+              We strongly believe in educating pupils for future success,
               promoting academic excellence and equity, and building sound moral
               and godly values in every child.
             </p>
             <p className="mt-4 text-[17px] leading-relaxed text-ink-500 text-pretty">
-              Since {site.founded}, that conviction has shaped Port Harcourt&apos;s
-              home for a distinctive way of teaching we call, simply, the
-              Surebloom Method.
+              Since {site.founded}, that conviction has shaped how we teach.
+              We call the approach, simply, the Surebloom Method.
             </p>
 
             <div className="mt-10">
@@ -182,7 +181,7 @@ function ProgramsGrid() {
       slug: "nursery",
       level: "01 · Nursery",
       title: "Where wonder begins.",
-      copy: "A prepared environment of practical life, sensorial materials, and warm guidance — the years when children discover they can.",
+      copy: "A prepared environment of practical life, sensorial materials, and warm guidance. These are the years when children discover they can.",
       image: "/images/girl.jpg",
       imageAlt: "Nursery pupil at Surebloom International School, Port Harcourt",
     },
@@ -190,7 +189,7 @@ function ProgramsGrid() {
       slug: "primary",
       level: "02 · Primary",
       title: "Where questions grow big.",
-      copy: "Cosmic education across mathematics, language, geography, and the sciences — connecting every subject to the whole story of the universe.",
+      copy: "Cosmic education across mathematics, language, geography, and the sciences, connecting every subject to the whole story of the universe.",
       image: "/images/library.jpg",
       imageAlt: "Surebloom International School library, Port Harcourt",
     },
@@ -198,7 +197,7 @@ function ProgramsGrid() {
       slug: "secondary",
       level: "03 · Secondary",
       title: "Where character takes shape.",
-      copy: "Academic rigor married to service, leadership, and self-authorship — preparing scholars for the best universities in Nigeria and abroad.",
+      copy: "Academic rigor paired with service, leadership, and self-direction, preparing pupils for WAEC/SSCE and for university in Nigeria or abroad.",
       image: "/images/highschool.jpg",
       imageAlt: "Secondary students at Surebloom International School, Port Harcourt",
     },
@@ -216,9 +215,8 @@ function ProgramsGrid() {
             </h2>
           </div>
           <p className="max-w-md text-[16px] leading-relaxed text-cream-100/85">
-            From the first steps in nursery through the final scholarship at
-            secondary, our children move through an unbroken Montessori arc —
-            each stage prepared for the next.
+            From a child&apos;s first steps in nursery to their final year of
+            secondary school, every stage is prepared for the one after it.
           </p>
         </div>
 
@@ -288,12 +286,12 @@ function MontessoriBlock() {
     {
       n: "01",
       title: "Prepared environment",
-      copy: "Classrooms designed to invite discovery — beautiful materials at child height, order that frees rather than constrains.",
+      copy: "Classrooms designed to invite discovery, with beautiful materials at child height and order that frees rather than constrains.",
     },
     {
       n: "02",
       title: "Follow the child",
-      copy: "Guides observe carefully, then step in — respecting each child's rhythm, sensitive periods, and inner drive to learn.",
+      copy: "Guides observe carefully, then step in, respecting each child's rhythm, sensitive periods, and inner drive to learn.",
     },
     {
       n: "03",
@@ -318,7 +316,7 @@ function MontessoriBlock() {
               Fifteen years of <span className="italic text-navy-700">practice.</span>
             </>
           }
-          intro="Rooted in the Montessori tradition, refined every day in our Port Harcourt classrooms — our method rests on four ideas that shape everything we do."
+          intro="Rooted in the Montessori tradition and refined every day in our Port Harcourt classrooms, our method rests on four ideas that shape everything we do."
         />
 
         <div className="mt-16 md:mt-20 grid gap-x-10 gap-y-14 md:grid-cols-2 lg:grid-cols-4">
@@ -351,7 +349,7 @@ function SchoolMoments() {
           <div>
             <Eyebrow>Life at school</Eyebrow>
             <h2 className="mt-5 font-display text-display-md font-medium text-navy-950 text-balance max-w-xl">
-              Days that feel like <span className="italic text-navy-700">Tuesday</span> — and that&apos;s the point.
+              What a normal day at Surebloom <span className="italic text-navy-700">looks like.</span>
             </h2>
           </div>
           <Link href="/about" className="inline-flex items-center gap-2 text-[14px] font-medium text-navy-900 hover:text-navy-700 transition">
@@ -423,8 +421,8 @@ function AdmissionsCta() {
         <div className="max-w-2xl">
           <Eyebrow className="text-cream-50/85 [&>span]:bg-cream-50/40">Get in touch</Eyebrow>
           <h2 className="mt-6 font-display text-display-lg font-medium text-cream-50 text-balance">
-            Your child&apos;s next chapter
-            <span className="italic text-azure-500"> starts here.</span>
+            Let&apos;s talk about
+            <span className="italic text-azure-500"> your child&apos;s education.</span>
           </h2>
           <p className="mt-6 text-[17px] leading-relaxed text-cream-100/85 max-w-xl text-pretty">
             Reach out and we&rsquo;ll be in touch personally to talk through
@@ -454,7 +452,7 @@ function VisitBlock() {
             </h2>
             <p className="mt-6 text-[16.5px] leading-relaxed text-ink-500 max-w-md">
               Tucked into a quiet street in Nvigwe, Woji. Come by for a tour,
-              or send us a note — we love meeting the families we&apos;ll grow with.
+              or send us a note. We love meeting the families we&apos;ll grow with.
             </p>
 
             <dl className="mt-10 space-y-6 text-[15px]">

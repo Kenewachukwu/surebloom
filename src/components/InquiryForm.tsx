@@ -75,7 +75,7 @@ export function InquiryForm() {
             <option value="" disabled>Select…</option>
             <option>Admissions</option>
             <option>School tour</option>
-            <option>Fees & scholarships</option>
+            <option>Fees</option>
             <option>General question</option>
           </select>
         </div>

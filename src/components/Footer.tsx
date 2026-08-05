@@ -24,8 +24,8 @@ export function Footer() {
               Excellence · Our Culture
             </p>
             <p className="mt-6 max-w-sm text-[15px] leading-relaxed text-cream-100/85">
-              A Montessori school in the heart of Port Harcourt, raising curious,
-              confident, and compassionate children from nursery through secondary.
+              A Montessori school in the heart of Port Harcourt, teaching
+              nursery through secondary since {site.founded}.
             </p>
             <div className="mt-8 flex gap-3">
               {(["facebook", "instagram", "youtube"] as const).map((s) => (
@@ -110,7 +110,7 @@ export function Footer() {
         <div className="mt-16 pt-8 border-t border-cream-100/10 flex flex-col md:flex-row items-start md:items-center justify-between gap-4 text-[13px] text-cream-100/75">
           <p>© {new Date().getFullYear()} Surebloom International School. All rights reserved.</p>
           <p>
-            Est. {site.founded} · Nurturing minds in Port Harcourt for {new Date().getFullYear() - site.founded}+ years
+            Est. {site.founded} · Teaching in Port Harcourt for {new Date().getFullYear() - site.founded}+ years
           </p>
         </div>
       </div>

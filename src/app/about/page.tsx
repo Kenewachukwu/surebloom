@@ -6,7 +6,7 @@ import { Eyebrow, SectionHeader } from "@/components/Section";
 import { site, awards } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "About Us — Montessori School in Port Harcourt",
+  title: "About Us: Montessori School in Port Harcourt",
   description:
     "Surebloom International School has guided children from nursery through secondary in Port Harcourt, Nigeria since 2010, using a distinctive Montessori-rooted approach we call the Surebloom Method.",
 };
@@ -71,7 +71,7 @@ function StoryBlock() {
             </p>
             <p>
               In the years since, we&apos;ve grown into a full school of nursery,
-              primary, and secondary — building on Montessori foundations to
+              primary, and secondary, building on Montessori foundations to
               develop what we now call, simply, the Surebloom Method. The
               founding belief has not changed. Every child is a serious person.
               Every day of childhood is precious. Every teacher is first, and
@@ -92,10 +92,10 @@ function ValuesBlock() {
   const values = [
     { t: "Teamwork", d: "We learn together. We build together. No one is a bystander in this community." },
     { t: "Creativity", d: "Every subject is an act of imagination. We honour the maker in every child." },
-    { t: "Excellence", d: "Not perfectionism — the quiet discipline of doing good work, over and over." },
+    { t: "Excellence", d: "Not perfectionism, but the quiet discipline of doing good work, over and over." },
     { t: "Faith", d: "A Christian foundation of love, dignity, and service to others." },
     { t: "Curiosity", d: "The one habit we protect above all. Questions are the beginning of everything." },
-    { t: "Character", d: "Who you are when no one is watching — that is what we&apos;re teaching." },
+    { t: "Character", d: "Who you are when no one is watching: that&apos;s what we&apos;re teaching." },
   ];
   return (
     <section className="bg-cream-100 py-24 md:py-32 border-y border-navy-900/8">
@@ -131,13 +131,13 @@ function AwardsBlock() {
           <div className="lg:sticky lg:top-32">
             <Eyebrow>Recognition</Eyebrow>
             <h2 className="mt-5 font-display text-display-md font-medium text-navy-950 text-balance">
-              Our pupils, on the
-              <span className="italic text-navy-700"> world stage.</span>
+              Our pupils, competing
+              <span className="italic text-navy-700"> internationally.</span>
             </h2>
             <p className="mt-6 text-[16.5px] leading-relaxed text-ink-500 max-w-md">
-              Surebloom pupils have carried our name well beyond the walls of
-              our Port Harcourt school — competing and placing on international
-              platforms.
+              Every so often, a Surebloom pupil enters an international
+              competition and does our school proud. Here&apos;s one we&apos;re
+              especially proud of.
             </p>
           </div>
 
@@ -196,7 +196,7 @@ function ApproachBlock() {
               The Surebloom Method is often mistaken for a soft alternative to
               &ldquo;serious&rdquo; schooling. The opposite is true. Our children
               work with real materials on real problems from age three. They read
-              early, write early, and — most importantly — they choose their work.
+              early, write early, and, most importantly, they choose their work.
             </p>
             <p className="mt-4 text-[17px] leading-relaxed text-ink-500">
               By the time they finish primary, they have mastered concepts most
@@ -226,7 +226,7 @@ function FaithBlock() {
           <p className="mt-8 text-[17px] leading-relaxed text-cream-100/80 text-pretty">
             Surebloom is a Christian school in its ethos, its calendar, and its
             care for the children in our care. We welcome families of every
-            background — what we ask is that each child be treated with the
+            background. What we ask is that each child be treated with the
             dignity we believe every human being is owed.
           </p>
         </div>
