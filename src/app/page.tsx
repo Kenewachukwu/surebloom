@@ -349,12 +349,10 @@ function SchoolMoments() {
         </div>
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4">
-          {images.map((img, i) => (
+          {images.map((img) => (
             <div
               key={img.src}
-              className={`relative overflow-hidden rounded-2xl group aspect-[4/5] ${
-                i === 0 ? "md:col-span-2 md:aspect-[5/4]" : ""
-              }`}
+              className="relative overflow-hidden rounded-2xl group aspect-[4/5]"
             >
               <Image
                 src={img.src}
