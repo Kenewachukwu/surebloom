@@ -4,6 +4,8 @@ import Script from "next/script";
 import "./globals.css";
 import { Nav } from "@/components/Nav";
 import { Footer } from "@/components/Footer";
+import { PageTransition } from "@/components/PageTransition";
+import { ScrollReveal } from "@/components/ScrollReveal";
 import { site } from "@/lib/site";
 
 const fraunces = Fraunces({
@@ -91,8 +93,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en" className={`${fraunces.variable} ${inter.variable}`}>
       <body className="min-h-screen bg-cream-50 text-ink-900 antialiased">
         <Nav />
-        <main>{children}</main>
+        <main>
+          <PageTransition>{children}</PageTransition>
+        </main>
         <Footer />
+        <ScrollReveal />
         <Script
           id="org-schema"
           type="application/ld+json"
