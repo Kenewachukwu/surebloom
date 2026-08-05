@@ -6,7 +6,7 @@ export const site = {
   missionVerified:
     "We strongly believe in educating pupils for future success, and promoting academic excellence and equity.",
   description:
-    "A world-class Montessori education from nursery to secondary, raising Nigeria's next generation of curious, confident, and compassionate leaders.",
+    "A world-class Montessori education from nursery to secondary in Port Harcourt, raising Nigeria's next generation of curious, confident, and compassionate leaders.",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://surebloomschool.com",
   address: {
     street: "10 Owhor Chukwu Street, Off Chief Jacob Chukwu Street",
@@ -15,6 +15,9 @@ export const site = {
     state: "Rivers State",
     country: "Nigeria",
     full: "10 Owhor Chukwu Street, Off Chief Jacob Chukwu Street, Nvigwe Woji, Port Harcourt, Rivers State, Nigeria",
+    // Woji neighborhood-level coords (OpenStreetMap) — the exact street isn't
+    // mapped. Replace with the precise pin from Google Business Profile once claimed.
+    geo: { lat: 4.8163694, lng: 6.9894015 },
   },
   phone: "080 3626 4320",
   phoneRaw: "+2348036264320",

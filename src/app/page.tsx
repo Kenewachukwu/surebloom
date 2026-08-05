@@ -184,6 +184,7 @@ function ProgramsGrid() {
       title: "Where wonder begins.",
       copy: "A prepared environment of practical life, sensorial materials, and warm guidance — the years when children discover they can.",
       image: "/images/girl.jpg",
+      imageAlt: "Nursery pupil at Surebloom International School, Port Harcourt",
     },
     {
       slug: "primary",
@@ -191,6 +192,7 @@ function ProgramsGrid() {
       title: "Where questions grow big.",
       copy: "Cosmic education across mathematics, language, geography, and the sciences — connecting every subject to the whole story of the universe.",
       image: "/images/library.jpg",
+      imageAlt: "Surebloom International School library, Port Harcourt",
     },
     {
       slug: "secondary",
@@ -198,6 +200,7 @@ function ProgramsGrid() {
       title: "Where character takes shape.",
       copy: "Academic rigor married to service, leadership, and self-authorship — preparing scholars for the best universities in Nigeria and abroad.",
       image: "/images/highschool.jpg",
+      imageAlt: "Secondary students at Surebloom International School, Port Harcourt",
     },
   ];
 
@@ -229,7 +232,7 @@ function ProgramsGrid() {
               <div className="relative aspect-[4/5] overflow-hidden">
                 <Image
                   src={p.image}
-                  alt={p.title}
+                  alt={p.imageAlt}
                   fill
                   sizes="(min-width: 768px) 33vw, 90vw"
                   className="object-cover transition-transform duration-700 group-hover:scale-105"

@@ -6,7 +6,7 @@ import { Eyebrow, SectionHeader } from "@/components/Section";
 import { facilities, clubs } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Programs — Nursery, Primary & Secondary",
+  title: "Programs — Nursery, Primary & Secondary in Port Harcourt",
   description:
     "Surebloom offers a full Montessori education from nursery through secondary school in Port Harcourt.",
 };

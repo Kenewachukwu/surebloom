@@ -6,7 +6,7 @@ import { Eyebrow, SectionHeader } from "@/components/Section";
 import { site, awards } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "About Us",
+  title: "About Us — Montessori School in Port Harcourt",
   description:
     "Surebloom International School has guided children from nursery through secondary in Port Harcourt, Nigeria since 2010, using a distinctive Montessori-rooted approach we call the Surebloom Method.",
 };

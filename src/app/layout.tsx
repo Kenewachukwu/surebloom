@@ -85,6 +85,31 @@ const orgSchema = {
     addressRegion: site.address.state,
     addressCountry: "NG",
   },
+  geo: {
+    "@type": "GeoCoordinates",
+    latitude: site.address.geo.lat,
+    longitude: site.address.geo.lng,
+  },
+  openingHoursSpecification: {
+    "@type": "OpeningHoursSpecification",
+    dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+    opens: "08:00",
+    closes: "16:00",
+  },
+  contactPoint: [
+    {
+      "@type": "ContactPoint",
+      telephone: site.phoneRaw,
+      contactType: "admissions",
+      areaServed: "NG",
+    },
+    {
+      "@type": "ContactPoint",
+      telephone: site.phoneAltRaw,
+      contactType: "admissions",
+      areaServed: "NG",
+    },
+  ],
   sameAs: [site.socials.facebook, site.socials.instagram, site.socials.youtube],
 };
 
