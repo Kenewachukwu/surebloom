@@ -451,8 +451,8 @@ function VisitBlock() {
               <span className="italic text-navy-700"> at our gate.</span>
             </h2>
             <p className="mt-6 text-[16.5px] leading-relaxed text-ink-500 max-w-md">
-              Tucked into a quiet street in Nvigwe, Woji. Come by for a tour,
-              or send us a note. We love meeting the families we&apos;ll grow with.
+              Come by for a tour, or reach out with any questions. We look
+              forward to welcoming your family.
             </p>
 
             <dl className="mt-10 space-y-6 text-[15px]">

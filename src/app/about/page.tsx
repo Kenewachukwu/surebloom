@@ -78,8 +78,8 @@ function StoryBlock() {
               last, an observer.
             </p>
             <p>
-              Today Surebloom sits in Nvigwe, Woji, on a quiet residential street.
-              Families are always welcome to visit and see how a day unfolds.
+              Today Surebloom is based in Nvigwe, Woji. Families are always
+              welcome to visit and see how a day unfolds.
             </p>
           </div>
         </div>
