@@ -64,7 +64,7 @@ function ProcessBlock() {
     {
       n: "02",
       t: "School appointment",
-      d: "Schedule an appointment to see the campus, meet a guide, and watch a class in session.",
+      d: "Schedule an appointment to see the school, meet a guide, and watch a class in session.",
     },
     {
       n: "03",
@@ -189,7 +189,7 @@ function ApplySection() {
             </h2>
             <p className="mt-6 text-[16px] leading-relaxed text-ink-500 max-w-md">
               Fill in what you can now — we can gather the rest during your
-              campus appointment. We reply to every application personally.
+              school appointment. We reply to every application personally.
             </p>
             <ul className="mt-8 space-y-3 text-[14.5px] text-ink-700">
               {["No obligation to enrol", "Confidential — never shared", "Reviewed personally by admissions"].map((t) => (

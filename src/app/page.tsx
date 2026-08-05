@@ -15,7 +15,7 @@ export default function HomePage() {
       <ProgramsGrid />
       <ValuesStripe />
       <MontessoriBlock />
-      <CampusMoments />
+      <SchoolMoments />
       <TestimonialBlock />
       <AdmissionsCta />
       <VisitBlock />
@@ -334,7 +334,7 @@ function MontessoriBlock() {
   );
 }
 
-function CampusMoments() {
+function SchoolMoments() {
   const images = [
     { src: "/images/ankwu.jpg", alt: "A student learning", label: "Practical life" },
     { src: "/images/temi.jpg", alt: "Student portrait", label: "Portraiture" },
@@ -346,13 +346,13 @@ function CampusMoments() {
       <Container>
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-14">
           <div>
-            <Eyebrow>Life on campus</Eyebrow>
+            <Eyebrow>Life at school</Eyebrow>
             <h2 className="mt-5 font-display text-display-md font-medium text-navy-950 text-balance max-w-xl">
               Days that feel like <span className="italic text-navy-700">Tuesday</span> — and that&apos;s the point.
             </h2>
           </div>
           <Link href="/about" className="inline-flex items-center gap-2 text-[14px] font-medium text-navy-900 hover:text-navy-700 transition">
-            More about campus life
+            More about school life
             <svg width="14" height="14" viewBox="0 0 20 20" fill="none" aria-hidden>
               <path d="M4 10h12m0 0l-5-5m5 5l-5 5" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
@@ -442,7 +442,7 @@ function AdmissionsCta() {
           <ol className="grid gap-4">
             {[
               { n: "01", t: "Enquiry", d: "Share your interest and receive our information pack." },
-              { n: "02", t: "Campus appointment", d: "Come see the school, meet a guide, watch a class in session." },
+              { n: "02", t: "School appointment", d: "Come see the school, meet a guide, watch a class in session." },
               { n: "03", t: "Entrance assessment", d: "A structured, age-appropriate assessment." },
               { n: "04", t: "Admission", d: "Successful pupils join the Surebloom community." },
             ].map((s) => (

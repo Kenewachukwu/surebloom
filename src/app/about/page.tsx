@@ -136,7 +136,7 @@ function AwardsBlock() {
             </h2>
             <p className="mt-6 text-[16.5px] leading-relaxed text-ink-500 max-w-md">
               Surebloom pupils have carried our name well beyond the walls of
-              our Port Harcourt campus — competing and placing on international
+              our Port Harcourt school — competing and placing on international
               platforms.
             </p>
           </div>

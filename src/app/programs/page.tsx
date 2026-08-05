@@ -52,7 +52,7 @@ const programs = [
     lede: "The adolescent years, taken seriously. A blend of Nigerian and British curriculum prepares our pupils for the WAEC/SSCE and university entry — while service, leadership, and self-authorship prepare them for a life.",
     subjects: [
       { t: "Core academics", d: "English, mathematics, sciences, humanities — combining Nigerian and British curriculum standards, aligned with WAEC/SSCE." },
-      { t: "Boarding house", d: "On-campus boarding available for secondary pupils, with pastoral care, structured evening study, and community life." },
+      { t: "Boarding house", d: "Boarding available for secondary pupils, with pastoral care, structured evening study, and community life." },
       { t: "Electives & specialisation", d: "Pupils shape their programme around emerging interests." },
       { t: "Community & service", d: "Real work in the world beyond the school gate." },
       { t: "Leadership development", d: "Pupil government, mentorship of younger children, public speaking." },
@@ -203,9 +203,9 @@ function FacilitiesBlock() {
     <section className="bg-cream-50 py-24 md:py-32 border-b border-navy-900/8">
       <Container>
         <SectionHeader
-          eyebrow="Campus & facilities"
+          eyebrow="Facilities"
           title={<>Built for how children <span className="italic text-navy-700">actually</span> learn.</>}
-          intro="Our campus is designed as an extended classroom — every corner an invitation to discover."
+          intro="Our school is designed as an extended classroom — every corner an invitation to discover."
         />
         <ul className="mt-14 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-6 gap-y-4">
           {facilities.map((f) => (

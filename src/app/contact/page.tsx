@@ -8,7 +8,7 @@ import { site } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Contact & Visit",
   description:
-    "Get in touch with Surebloom International School in Port Harcourt. Schedule an appointment, ask a question, or find directions to our campus.",
+    "Get in touch with Surebloom International School in Port Harcourt. Schedule an appointment, ask a question, or find directions to our school.",
 };
 
 export default function ContactPage() {
@@ -27,7 +27,7 @@ function PageHero() {
       <Container>
         <Eyebrow>Say hello</Eyebrow>
         <h1 className="mt-6 font-display text-display-xl font-medium leading-[1.02] text-navy-950 text-balance max-w-4xl">
-          Come by the campus.
+          Come by the school.
           <br />
           <span className="italic text-navy-700">Or start here.</span>
         </h1>
