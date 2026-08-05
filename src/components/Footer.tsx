@@ -25,7 +25,7 @@ export function Footer() {
             </p>
             <p className="mt-6 max-w-sm text-[15px] leading-relaxed text-cream-100/85">
               Nursery through secondary in Port Harcourt, with a
-              Montessori-rooted method since {site.founded}.
+              Montessori-rooted method.
             </p>
             <div className="mt-8 flex gap-3">
               {(["facebook", "instagram", "youtube"] as const).map((s) => (
@@ -107,11 +107,8 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="mt-16 pt-8 border-t border-cream-100/10 flex flex-col md:flex-row items-start md:items-center justify-between gap-4 text-[13px] text-cream-100/75">
+        <div className="mt-16 pt-8 border-t border-cream-100/10 text-[13px] text-cream-100/75">
           <p>© {new Date().getFullYear()} Surebloom International School. All rights reserved.</p>
-          <p>
-            Est. {site.founded} · Teaching in Port Harcourt for {new Date().getFullYear() - site.founded}+ years
-          </p>
         </div>
       </div>
     </footer>

@@ -84,7 +84,7 @@ function PageHero() {
           <h1 className="mt-6 font-display text-display-xl font-medium leading-[1.02] text-navy-950 text-balance">
             Nursery to secondary,
             <br />
-            <span className="italic text-navy-700">fifteen years</span> of growth.
+            <span className="italic text-navy-700">built for growth</span> at every stage.
           </h1>
           <p className="mt-8 max-w-2xl text-[18px] leading-relaxed text-ink-500 text-pretty">
             Every level of Surebloom is designed as one continuous journey,

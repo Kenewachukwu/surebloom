@@ -31,7 +31,6 @@ export const site = {
     instagram: "https://www.instagram.com/surebloominternationalschool/",
     youtube: "https://youtube.com/@surebloom",
   },
-  founded: 2010,
   mapEmbedSrc:
     "https://www.google.com/maps?q=10+Owhor+Chukwu+Street+Nvigwe+Woji+Port+Harcourt&output=embed",
   mapDirectionsUrl:
@@ -41,7 +40,6 @@ export const site = {
 export const nav = [
   { label: "About", href: "/about" },
   { label: "Programs", href: "/programs" },
-  { label: "Contact", href: "/contact" },
 ] as const;
 
 export const facilities = [

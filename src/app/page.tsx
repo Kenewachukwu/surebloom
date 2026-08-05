@@ -50,7 +50,7 @@ function Hero() {
 
           <p className="mt-6 md:mt-8 max-w-xl text-[16px] md:text-[18px] leading-relaxed text-cream-100/85 text-pretty">
             Montessori-rooted teaching with a Nigerian and British curriculum,
-            in Port Harcourt since {site.founded}.
+            in Port Harcourt.
           </p>
 
           <div className="mt-8 md:mt-10 flex flex-col sm:flex-row sm:flex-wrap sm:items-center gap-3 sm:gap-4">
@@ -71,11 +71,9 @@ function Hero() {
 
         <div className="mt-12 md:mt-16 flex flex-wrap items-end justify-between gap-6 border-t border-cream-50/15 pt-6 md:pt-8">
           <div className="flex flex-wrap items-center gap-x-3 gap-y-1.5 text-[11px] md:text-[12px] font-medium uppercase tracking-[0.2em] md:tracking-[0.24em] text-cream-50/85">
-            <span>Est. {site.founded}</span>
-            <span className="h-1 w-1 rounded-full bg-cream-50/40" />
             <span>The Surebloom Method</span>
-            <span className="hidden sm:inline h-1 w-1 rounded-full bg-cream-50/40" />
-            <span className="hidden sm:inline">Nursery → Secondary</span>
+            <span className="h-1 w-1 rounded-full bg-cream-50/40" />
+            <span>Nursery → Secondary</span>
           </div>
           <div className="hidden md:flex items-center gap-2 text-[12px] text-cream-50/80">
             <span>Scroll to explore</span>
@@ -91,14 +89,13 @@ function Hero() {
 
 function TrustBar() {
   const stats = [
-    { k: `${new Date().getFullYear() - site.founded}+`, v: "Years since founding" },
     { k: "3", v: "Levels: Nursery, Primary, Secondary" },
-    { k: `Est. ${site.founded}`, v: "Founded in Port Harcourt" },
+    { k: "2", v: "Curricula: Nigerian & British" },
   ];
   return (
     <section className="bg-cream-100 border-b border-navy-900/8">
       <Container>
-        <dl className="grid grid-cols-1 sm:grid-cols-3 gap-y-10 py-14 md:py-16">
+        <dl className="grid grid-cols-1 sm:grid-cols-2 gap-y-10 py-14 md:py-16">
           {stats.map((s) => (
             <div key={s.k} className="border-l border-navy-900/15 pl-5 md:pl-6">
               <dt className="font-display text-4xl md:text-5xl font-medium text-navy-900 tracking-tight">
@@ -150,8 +147,8 @@ function MissionBlock() {
               and godly values in every child.
             </p>
             <p className="mt-4 text-[17px] leading-relaxed text-ink-500 text-pretty">
-              Since {site.founded}, that conviction has shaped how we teach.
-              We call the approach, simply, the Surebloom Method.
+              That conviction shapes how we teach, in an approach we call,
+              simply, the Surebloom Method.
             </p>
 
             <div className="mt-10">
@@ -304,7 +301,7 @@ function MontessoriBlock() {
             <>
               A century of research.
               <br />
-              Fifteen years of <span className="italic text-navy-700">practice.</span>
+              <span className="italic text-navy-700">Proven in practice.</span>
             </>
           }
           intro="Rooted in the Montessori tradition and refined every day in our Port Harcourt classrooms, our method rests on four ideas that shape everything we do."

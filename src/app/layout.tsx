@@ -77,7 +77,6 @@ const orgSchema = {
   description: site.description,
   telephone: site.phoneRaw,
   email: site.email,
-  foundingDate: String(site.founded),
   address: {
     "@type": "PostalAddress",
     streetAddress: site.address.street,

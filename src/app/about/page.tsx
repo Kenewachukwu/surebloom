@@ -8,7 +8,7 @@ import { site, awards } from "@/lib/site";
 export const metadata: Metadata = {
   title: "About Us: Our Story in Port Harcourt",
   description:
-    "Surebloom International School has guided children from nursery through secondary in Port Harcourt, Nigeria since 2010, using a distinctive Montessori-rooted approach we call the Surebloom Method.",
+    "Surebloom International School guides children from nursery through secondary in Port Harcourt, Nigeria, using a distinctive Montessori-rooted approach we call the Surebloom Method.",
 };
 
 export default function AboutPage() {
@@ -36,11 +36,11 @@ function PageHero() {
         <div className="max-w-4xl">
           <Eyebrow className="text-cream-50/85 [&>span]:bg-cream-50/50">About Surebloom</Eyebrow>
           <h1 className="mt-6 font-display text-display-xl font-medium leading-[1.02] text-balance">
-            Fifteen years of raising children
+            Raising children
             <span className="italic text-azure-500"> who know who they are.</span>
           </h1>
           <p className="mt-8 max-w-2xl text-[18px] leading-relaxed text-cream-100/80 text-pretty">
-            We opened our doors in {site.founded} with a small group of children and
+            We opened our doors with a small group of children and
             an unshakeable belief: that a real education is not the filling of a
             bucket, but the lighting of a fire.
           </p>
@@ -65,7 +65,7 @@ function StoryBlock() {
           </div>
           <div className="lg:col-span-7 space-y-6 text-[17px] leading-relaxed text-ink-700">
             <p>
-              Surebloom opened its doors in {site.founded} in Port Harcourt, with
+              Surebloom opened its doors in Port Harcourt with
               a simple conviction: that a real education is not the filling of a
               bucket, but the lighting of a fire.
             </p>
