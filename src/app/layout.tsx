@@ -24,7 +24,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: {
-    default: `${site.name}: Montessori Excellence in Port Harcourt`,
+    default: `${site.name}: Nursery to Secondary in Port Harcourt`,
     template: `%s · ${site.shortName}`,
   },
   description: site.description,
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     locale: "en_NG",
     url: site.url,
     siteName: site.name,
-    title: `${site.name}: Montessori Excellence in Port Harcourt`,
+    title: `${site.name}: Nursery to Secondary in Port Harcourt`,
     description: site.description,
     images: [
       { url: "/images/highschool.jpg", width: 1200, height: 630, alt: site.name },

@@ -24,8 +24,8 @@ export function Footer() {
               Excellence · Our Culture
             </p>
             <p className="mt-6 max-w-sm text-[15px] leading-relaxed text-cream-100/85">
-              A Montessori school in Port Harcourt, teaching nursery through
-              secondary since {site.founded}.
+              Nursery through secondary in Port Harcourt, with a
+              Montessori-rooted method since {site.founded}.
             </p>
             <div className="mt-8 flex gap-3">
               {(["facebook", "instagram", "youtube"] as const).map((s) => (

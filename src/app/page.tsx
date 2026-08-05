@@ -16,7 +16,6 @@ export default function HomePage() {
       <ValuesStripe />
       <MontessoriBlock />
       <SchoolMoments />
-      <TestimonialBlock />
       <AdmissionsCta />
       <VisitBlock />
     </>
@@ -41,25 +40,17 @@ function Hero() {
 
       <Container className="relative flex min-h-[100svh] flex-col justify-end pb-14 pt-28 md:pb-24 md:pt-32">
         <div className="max-w-4xl">
-          <div className="mb-6 md:mb-8 inline-flex items-center gap-2.5 rounded-full border border-cream-50/25 bg-cream-50/5 px-3.5 py-1.5 md:px-4 md:py-2 backdrop-blur-sm">
-            <span className="h-1.5 w-1.5 rounded-full bg-azure-500" />
-            <span className="text-[11px] md:text-[12px] font-medium uppercase tracking-[0.18em] md:tracking-[0.2em] text-cream-50/90">
-              Admissions open for the {new Date().getFullYear() + 1}/{new Date().getFullYear() + 2} session
-            </span>
-          </div>
-
           <h1 className="font-display text-display-2xl font-medium leading-[0.95] text-cream-50 text-balance">
-            Excellence is our culture.
+            Nursery to secondary.
             <br />
-            <span className="italic text-azure-500">Port Harcourt</span> is
+            <span className="italic text-azure-500">One Surebloom</span>
             <br />
-            our home.
+            education.
           </h1>
 
           <p className="mt-6 md:mt-8 max-w-xl text-[16px] md:text-[18px] leading-relaxed text-cream-100/85 text-pretty">
-            A Montessori school in Port Harcourt for children from nursery
-            through secondary. It&apos;s the same school we&apos;ve been
-            building since {site.founded}.
+            Montessori-rooted teaching with a Nigerian and British curriculum,
+            in Port Harcourt since {site.founded}.
           </p>
 
           <div className="mt-8 md:mt-10 flex flex-col sm:flex-row sm:flex-wrap sm:items-center gap-3 sm:gap-4">
@@ -382,27 +373,6 @@ function SchoolMoments() {
               </div>
             </div>
           ))}
-        </div>
-      </Container>
-    </section>
-  );
-}
-
-function TestimonialBlock() {
-  return (
-    <section className="bg-cream-100 py-24 md:py-32">
-      <Container size="narrow">
-        <div className="text-center">
-          <svg width="48" height="48" viewBox="0 0 48 48" fill="none" className="mx-auto text-azure-500" aria-hidden>
-            <path d="M18 12c-6 0-10 4-10 12v12h12V24h-6c0-4 2-6 6-6V12h-2zM38 12c-6 0-10 4-10 12v12h12V24h-6c0-4 2-6 6-6V12h-2z" fill="currentColor" />
-          </svg>
-          <blockquote className="mt-8 font-display text-3xl md:text-4xl font-medium leading-[1.25] text-navy-950 text-balance">
-            We believe every child arrives already brilliant.
-            <span className="italic text-navy-700"> Our work is to keep that brilliance alive.</span>
-          </blockquote>
-          <p className="mt-8 text-[13px] font-medium uppercase tracking-[0.24em] text-navy-800">
-            Excellence · Our Culture
-          </p>
         </div>
       </Container>
     </section>

@@ -6,7 +6,7 @@ export const site = {
   missionVerified:
     "We strongly believe in educating pupils for future success, and promoting academic excellence and equity.",
   description:
-    "Surebloom International School is a Montessori school in Port Harcourt, Nigeria, teaching nursery through secondary since 2010 with a blend of Nigerian and British curriculum.",
+    "Surebloom International School teaches nursery through secondary in Port Harcourt, Nigeria, with a Montessori-rooted method and a blend of Nigerian and British curriculum.",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://surebloomschool.com",
   address: {
     street: "10 Owhor Chukwu Street, Off Chief Jacob Chukwu Street",
