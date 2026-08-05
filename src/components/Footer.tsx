@@ -1,15 +1,10 @@
 import Link from "next/link";
 import Image from "next/image";
 import { nav, site } from "@/lib/site";
-import { AdirePattern } from "./AdirePattern";
 
 export function Footer() {
   return (
     <footer className="relative bg-navy-950 text-cream-100">
-      <div className="h-6 text-azure-500 [--adire-eye:#0F244A]">
-        <AdirePattern className="h-full w-full" />
-      </div>
-
       <div className="mx-auto max-w-8xl px-6 md:px-10 lg:px-16 py-16 md:py-20">
         <div className="grid gap-12 md:gap-16 lg:grid-cols-[1.5fr_1fr_1fr_1fr]">
           <div>

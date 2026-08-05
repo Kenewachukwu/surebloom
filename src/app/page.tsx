@@ -3,7 +3,6 @@ import Link from "next/link";
 import { Container } from "@/components/Container";
 import { Button } from "@/components/Button";
 import { Eyebrow, SectionHeader } from "@/components/Section";
-import { AdireDivider, AdirePattern } from "@/components/AdirePattern";
 import { MapEmbed } from "@/components/MapEmbed";
 import { site } from "@/lib/site";
 
@@ -103,13 +102,12 @@ function TrustBar() {
   const stats = [
     { k: `${new Date().getFullYear() - site.founded}+`, v: "Years since founding" },
     { k: "3", v: "Levels — Nursery, Primary, Secondary" },
-    { k: "2–17", v: "Ages served across the school" },
     { k: `Est. ${site.founded}`, v: "Founded in Port Harcourt" },
   ];
   return (
     <section className="bg-cream-100 border-b border-navy-900/8">
       <Container>
-        <dl className="grid grid-cols-2 md:grid-cols-4 gap-y-10 py-14 md:py-16">
+        <dl className="grid grid-cols-1 sm:grid-cols-3 gap-y-10 py-14 md:py-16">
           {stats.map((s) => (
             <div key={s.k} className="border-l border-navy-900/15 pl-5 md:pl-6">
               <dt className="font-display text-4xl md:text-5xl font-medium text-navy-900 tracking-tight">
@@ -141,10 +139,7 @@ function MissionBlock() {
                 className="object-cover"
               />
             </div>
-            <div className="mt-6 flex items-center gap-4">
-              <div className="h-6 text-azure-500 flex-1">
-                <AdirePattern className="h-full w-full" />
-              </div>
+            <div className="mt-6">
               <span className="text-[11px] font-medium uppercase tracking-[0.24em] text-navy-800">
                 Nvigwe · Woji
               </span>
@@ -186,7 +181,6 @@ function ProgramsGrid() {
     {
       slug: "nursery",
       level: "01 · Nursery",
-      age: "Ages 2 – 5",
       title: "Where wonder begins.",
       copy: "A prepared environment of practical life, sensorial materials, and warm guidance — the years when children discover they can.",
       image: "/images/girl.jpg",
@@ -194,7 +188,6 @@ function ProgramsGrid() {
     {
       slug: "primary",
       level: "02 · Primary",
-      age: "Ages 6 – 11",
       title: "Where questions grow big.",
       copy: "Cosmic education across mathematics, language, geography, and the sciences — connecting every subject to the whole story of the universe.",
       image: "/images/library.jpg",
@@ -202,7 +195,6 @@ function ProgramsGrid() {
     {
       slug: "secondary",
       level: "03 · Secondary",
-      age: "Ages 12 – 17",
       title: "Where character takes shape.",
       copy: "Academic rigor married to service, leadership, and self-authorship — preparing scholars for the best universities in Nigeria and abroad.",
       image: "/images/highschool.jpg",
@@ -245,9 +237,8 @@ function ProgramsGrid() {
                 <div className="absolute inset-0 bg-gradient-to-t from-navy-950 via-navy-950/40 to-transparent" />
               </div>
               <div className="absolute inset-0 flex flex-col justify-between p-6 md:p-8">
-                <div className="flex items-center justify-between text-[10.5px] md:text-[11px] font-medium uppercase tracking-[0.18em] md:tracking-[0.2em] text-cream-50/80">
+                <div className="text-[10.5px] md:text-[11px] font-medium uppercase tracking-[0.18em] md:tracking-[0.2em] text-cream-50/80">
                   <span>{p.level}</span>
-                  <span>{p.age}</span>
                 </div>
                 <div>
                   <h3 className="font-display text-[26px] md:text-[32px] font-medium text-cream-50 leading-tight text-balance">
@@ -466,8 +457,6 @@ function AdmissionsCta() {
           </ol>
         </div>
       </Container>
-
-      <AdireDivider className="bg-navy-900" />
     </section>
   );
 }

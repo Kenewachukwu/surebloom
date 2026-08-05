@@ -3,7 +3,6 @@ import Image from "next/image";
 import { Container } from "@/components/Container";
 import { Button } from "@/components/Button";
 import { Eyebrow, SectionHeader } from "@/components/Section";
-import { AdireDivider } from "@/components/AdirePattern";
 import { site, awards } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -232,7 +231,6 @@ function FaithBlock() {
           </p>
         </div>
       </Container>
-      <AdireDivider className="mt-24" />
     </section>
   );
 }

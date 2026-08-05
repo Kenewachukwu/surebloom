@@ -3,13 +3,12 @@ import Image from "next/image";
 import { Container } from "@/components/Container";
 import { Button } from "@/components/Button";
 import { Eyebrow, SectionHeader } from "@/components/Section";
-import { AdirePattern } from "@/components/AdirePattern";
 import { facilities, clubs } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Programs — Nursery, Primary & Secondary",
   description:
-    "Surebloom offers a full Montessori education from nursery (age 2) through secondary school (age 17) in Port Harcourt.",
+    "Surebloom offers a full Montessori education from nursery through secondary school in Port Harcourt.",
 };
 
 const programs = [
@@ -17,7 +16,6 @@ const programs = [
     id: "nursery",
     num: "01",
     level: "Nursery",
-    age: "Ages 2 – 5",
     tagline: "Where wonder begins.",
     image: "/images/girl.jpg",
     lede: "The foundation years — when children build the person they will become. Independence, concentration, coordination, and language, in an environment prepared to their scale.",
@@ -33,7 +31,6 @@ const programs = [
     id: "primary",
     num: "02",
     level: "Primary",
-    age: "Ages 6 – 11",
     tagline: "Where questions grow big.",
     image: "/images/library.jpg",
     lede: "The years of the reasoning mind. We introduce the &lsquo;great lessons&rsquo; — the story of the universe, of life, of humans, of language, of numbers — and everything else grows from these roots.",
@@ -50,7 +47,6 @@ const programs = [
     id: "secondary",
     num: "03",
     level: "Secondary",
-    age: "Ages 12 – 17",
     tagline: "Where character takes shape.",
     image: "/images/highschool.jpg",
     lede: "The adolescent years, taken seriously. A blend of Nigerian and British curriculum prepares our pupils for the WAEC/SSCE and university entry — while service, leadership, and self-authorship prepare them for a life.",
@@ -133,21 +129,17 @@ function ProgramBlock({
             <div className="absolute top-6 left-6 flex items-center gap-3 rounded-full bg-cream-50/90 backdrop-blur px-4 py-2">
               <span className="font-display text-sm text-azure-600 font-medium">{program.num}</span>
               <span className="text-[12px] font-medium uppercase tracking-[0.18em] text-navy-900">
-                {program.level} · {program.age}
+                {program.level}
               </span>
             </div>
           </div>
 
           <div>
-            <Eyebrow>{program.level} — {program.age}</Eyebrow>
+            <Eyebrow>{program.level}</Eyebrow>
             <h2 className="mt-5 font-display text-display-lg font-medium text-navy-950 text-balance">
               {program.tagline}
             </h2>
             <p className="mt-6 text-[17px] leading-relaxed text-ink-500 text-pretty" dangerouslySetInnerHTML={{ __html: program.lede }} />
-
-            <div className="mt-8 h-6 text-azure-500">
-              <AdirePattern className="h-full w-40" />
-            </div>
 
             <dl className="mt-8 divide-y divide-navy-900/10 border-y border-navy-900/10">
               {program.subjects.map((s) => (
@@ -213,7 +205,7 @@ function FacilitiesBlock() {
         <SectionHeader
           eyebrow="Campus & facilities"
           title={<>Built for how children <span className="italic text-navy-700">actually</span> learn.</>}
-          intro="From the swimming pool to the zoological garden, our campus is designed as an extended classroom — every corner an invitation to discover."
+          intro="Our campus is designed as an extended classroom — every corner an invitation to discover."
         />
         <ul className="mt-14 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-6 gap-y-4">
           {facilities.map((f) => (
@@ -251,7 +243,6 @@ function ContinuumBlock() {
               />
               <div className="mt-4">
                 <p className="font-display text-lg md:text-xl text-cream-50">{p.level}</p>
-                <p className="text-[12px] uppercase tracking-[0.18em] text-cream-100/80 mt-1">{p.age}</p>
               </div>
             </div>
           ))}

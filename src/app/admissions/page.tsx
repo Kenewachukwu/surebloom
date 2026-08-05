@@ -4,7 +4,6 @@ import { Container } from "@/components/Container";
 import { Button } from "@/components/Button";
 import { Eyebrow, SectionHeader } from "@/components/Section";
 import { ApplicationForm } from "@/components/ApplicationForm";
-import { AdireDivider } from "@/components/AdirePattern";
 
 export const metadata: Metadata = {
   title: "Admissions — Apply to Surebloom",
@@ -123,7 +122,6 @@ function FeesBlock() {
           </div>
         </div>
       </Container>
-      <AdireDivider className="mt-16" />
     </section>
   );
 }

@@ -42,46 +42,28 @@ export const nav = [
   { label: "Contact", href: "/contact" },
 ] as const;
 
-// Verified from Nigeria Private Schools directory + school confirmation.
 export const facilities = [
-  "Digital classrooms",
   "Ultra-modern library",
   "ICT laboratory",
   "Science laboratory",
-  "Language laboratory",
   "Music room",
-  "Art room",
   "Multipurpose hall",
   "Indoor & outdoor sports",
-  "Swimming pool",
-  "Zoological garden",
   "Cafeteria & dining hall",
-  "Children's play park",
   "Boarding house (Secondary)",
   "Sick bay",
-  "School buses",
-  "Fast broadband Wi-Fi",
-  "Backup electricity",
-  "24/7 security",
 ] as const;
 
-// Verified from Nigeria Private Schools directory listing.
 export const clubs = [
   "Sports",
   "Debate Club",
   "Coding & Robotics",
-  "Chess Club",
   "Music & Choir",
   "Arts & Crafts",
   "Drama",
   "Dance",
-  "Journalism",
-  "Environmental Club",
-  "JET Club",
-  "Volunteering",
 ] as const;
 
-// Verified achievement (multiple public sources; year to be confirmed with school).
 export const awards = [
   {
     student: "Praise Mmesomachukwu Chukwumereze",
