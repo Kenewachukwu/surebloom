@@ -119,7 +119,7 @@ export function Nav() {
 
       <div
         className={cn(
-          "md:hidden fixed inset-0 top-16 bg-cream-50 transition-all duration-300 overflow-y-auto",
+          "md:hidden fixed inset-x-0 top-16 h-[calc(100dvh-4rem)] bg-cream-50 transition-all duration-300 overflow-y-auto",
           open ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
         )}
       >
