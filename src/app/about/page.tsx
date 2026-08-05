@@ -244,8 +244,7 @@ function CtaBlock() {
             Ready to see it in person?
           </h2>
           <div className="flex flex-wrap gap-4 md:justify-end">
-            <Button href="/admissions#apply" arrow>Start application</Button>
-            <Button href="/contact" variant="secondary">Schedule an appointment</Button>
+            <Button href="/contact" arrow>Contact us</Button>
           </div>
         </div>
       </Container>

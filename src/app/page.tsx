@@ -63,8 +63,8 @@ function Hero() {
           </p>
 
           <div className="mt-8 md:mt-10 flex flex-col sm:flex-row sm:flex-wrap sm:items-center gap-3 sm:gap-4">
-            <Button href="/admissions#apply" variant="accent" size="lg" arrow className="w-full sm:w-auto justify-center">
-              Begin Application
+            <Button href="/contact" variant="accent" size="lg" arrow className="w-full sm:w-auto justify-center">
+              Contact us
             </Button>
             <Link
               href="/programs"
@@ -417,44 +417,21 @@ function AdmissionsCta() {
       <div className="absolute inset-0 bg-gradient-to-r from-navy-950 via-navy-900/85 to-navy-900/40" />
 
       <Container className="relative py-24 md:py-32">
-        <div className="grid gap-12 lg:grid-cols-2 lg:gap-24 items-center">
-          <div>
-            <Eyebrow className="text-cream-50/85 [&>span]:bg-cream-50/40">Admissions {new Date().getFullYear() + 1}</Eyebrow>
-            <h2 className="mt-6 font-display text-display-lg font-medium text-cream-50 text-balance">
-              Your child&apos;s next chapter
-              <span className="italic text-azure-500"> starts here.</span>
-            </h2>
-            <p className="mt-6 text-[17px] leading-relaxed text-cream-100/85 max-w-xl text-pretty">
-              Applications for the next academic year are open. Our process is
-              designed to be clear, unhurried, and rigorous — every pupil we
-              admit is one we&rsquo;re certain will thrive here.
-            </p>
-            <div className="mt-10 flex flex-col sm:flex-row sm:flex-wrap gap-3 sm:gap-4">
-              <Button href="/admissions#apply" variant="accent" size="lg" arrow className="w-full sm:w-auto justify-center">
-                Start application
-              </Button>
-              <Button href="/contact" variant="ghost" size="lg" className="w-full sm:w-auto justify-center text-cream-50 hover:bg-cream-50/10 ring-1 ring-cream-50/20">
-                Schedule an appointment
-              </Button>
-            </div>
+        <div className="max-w-2xl">
+          <Eyebrow className="text-cream-50/85 [&>span]:bg-cream-50/40">Get in touch</Eyebrow>
+          <h2 className="mt-6 font-display text-display-lg font-medium text-cream-50 text-balance">
+            Your child&apos;s next chapter
+            <span className="italic text-azure-500"> starts here.</span>
+          </h2>
+          <p className="mt-6 text-[17px] leading-relaxed text-cream-100/85 max-w-xl text-pretty">
+            Reach out and we&rsquo;ll be in touch personally to talk through
+            enrolment, fees, and next steps.
+          </p>
+          <div className="mt-10 flex flex-col sm:flex-row sm:flex-wrap gap-3 sm:gap-4">
+            <Button href="/contact" variant="accent" size="lg" arrow className="w-full sm:w-auto justify-center">
+              Contact us
+            </Button>
           </div>
-
-          <ol className="grid gap-4">
-            {[
-              { n: "01", t: "Enquiry", d: "Share your interest and receive our information pack." },
-              { n: "02", t: "School appointment", d: "Come see the school, meet a guide, watch a class in session." },
-              { n: "03", t: "Entrance assessment", d: "A structured, age-appropriate assessment." },
-              { n: "04", t: "Admission", d: "Successful pupils join the Surebloom community." },
-            ].map((s) => (
-              <li key={s.n} className="grid grid-cols-[auto_1fr] gap-6 items-baseline border-t border-cream-50/15 pt-5">
-                <span className="font-display text-2xl text-azure-500">{s.n}</span>
-                <div>
-                  <p className="font-display text-xl text-cream-50">{s.t}</p>
-                  <p className="mt-1 text-[14.5px] text-cream-100/85">{s.d}</p>
-                </div>
-              </li>
-            ))}
-          </ol>
         </div>
       </Container>
     </section>

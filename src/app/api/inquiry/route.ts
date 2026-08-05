@@ -1,7 +1,6 @@
 import { NextResponse } from "next/server";
 import { z } from "zod";
 import { Resend } from "resend";
-import { site } from "@/lib/site";
 
 const schema = z.object({
   name: z.string().min(1).max(120),
@@ -20,7 +19,9 @@ export async function POST(req: Request) {
   const d = parsed.data;
 
   const apiKey = process.env.RESEND_API_KEY;
-  const to = process.env.INQUIRY_TO_EMAIL ?? site.email;
+  const to = process.env.INQUIRY_TO_EMAIL
+    ? process.env.INQUIRY_TO_EMAIL.split(",").map((e) => e.trim()).filter(Boolean)
+    : ["charchidi2000@gmail.com", "kenenwachukwuderek@gmail.com"];
   const from = process.env.INQUIRY_FROM_EMAIL ?? "noreply@surebloom.school";
 
   if (!apiKey) {
@@ -32,7 +33,7 @@ export async function POST(req: Request) {
   try {
     await resend.emails.send({
       from: `Surebloom Website <${from}>`,
-      to: [to],
+      to,
       replyTo: d.email,
       subject: `Website enquiry — ${d.topic || "General"} — ${d.name}`,
       text: `New enquiry via surebloom.school\n\nName: ${d.name}\nEmail: ${d.email}\nPhone: ${d.phone || "—"}\nTopic: ${d.topic || "—"}\n\nMessage:\n${d.message}\n`,

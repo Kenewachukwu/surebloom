@@ -32,7 +32,7 @@ function PageHero() {
           <span className="italic text-navy-700">Or start here.</span>
         </h1>
         <p className="mt-8 max-w-xl text-[17.5px] leading-relaxed text-ink-500">
-          Every enquiry is read by a real person on the admissions team.
+          Every enquiry is read by a real person on our team.
         </p>
       </Container>
     </section>
@@ -99,10 +99,8 @@ function ContactBlock() {
               Send us a message
             </h2>
             <p className="text-[15px] text-ink-500 mb-8">
-              For general questions. For applications, please use the{" "}
-              <a href="/admissions#apply" className="text-navy-900 underline underline-offset-4 decoration-navy-900/30 hover:decoration-navy-900">
-                admissions form
-              </a>.
+              For enrolment, fees, school tours, or any other question — send
+              us a message and we&rsquo;ll reply personally.
             </p>
             <InquiryForm />
           </div>

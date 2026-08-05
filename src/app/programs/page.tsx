@@ -151,8 +151,7 @@ function ProgramBlock({
             </dl>
 
             <div className="mt-10 flex flex-wrap gap-4">
-              <Button href="/admissions#apply" arrow>Apply for {program.level}</Button>
-              <Button href="/contact" variant="secondary">Ask a question</Button>
+              <Button href="/contact" arrow>Contact us about {program.level}</Button>
             </div>
           </div>
         </div>

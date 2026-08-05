@@ -89,7 +89,7 @@ export function Nav() {
             );
           })}
           <Link
-            href="/admissions#apply"
+            href="/contact"
             className={cn(
               "ml-3 inline-flex items-center gap-2 rounded-full px-5 py-2.5 text-[14px] font-medium transition",
               invert
@@ -97,7 +97,7 @@ export function Nav() {
                 : "bg-navy-900 text-cream-50 hover:bg-navy-800"
             )}
           >
-            Apply Now
+            Contact us
             <svg width="14" height="14" viewBox="0 0 20 20" fill="none" aria-hidden>
               <path d="M4 10h12m0 0l-5-5m5 5l-5 5" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
@@ -143,10 +143,10 @@ export function Nav() {
             );
           })}
           <Link
-            href="/admissions#apply"
+            href="/contact"
             className="mt-8 inline-flex items-center gap-2 rounded-full bg-navy-900 px-6 py-4 text-cream-50 text-base font-medium"
           >
-            Apply Now
+            Contact us
             <svg width="16" height="16" viewBox="0 0 20 20" fill="none" aria-hidden>
               <path d="M4 10h12m0 0l-5-5m5 5l-5 5" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
             </svg>

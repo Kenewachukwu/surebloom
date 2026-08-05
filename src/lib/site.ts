@@ -38,7 +38,6 @@ export const site = {
 export const nav = [
   { label: "About", href: "/about" },
   { label: "Programs", href: "/programs" },
-  { label: "Admissions", href: "/admissions" },
   { label: "Contact", href: "/contact" },
 ] as const;
 
