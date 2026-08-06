@@ -25,7 +25,7 @@ export function Footer() {
             </p>
             <p className="mt-6 max-w-sm text-[15px] leading-relaxed text-cream-100/85">
               Nursery through secondary in Port Harcourt, with a
-              Montessori-rooted method.
+              Nigerian and British curriculum.
             </p>
             <div className="mt-8 flex gap-3">
               {(["facebook", "instagram", "youtube"] as const).map((s) => (

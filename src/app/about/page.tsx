@@ -8,7 +8,7 @@ import { site, awards } from "@/lib/site";
 export const metadata: Metadata = {
   title: "About Us: Our Story in Port Harcourt",
   description:
-    "Surebloom International School guides children from nursery through secondary in Port Harcourt, Nigeria, using a distinctive Montessori-rooted approach we call the Surebloom Method.",
+    "Surebloom International School guides children from nursery through secondary in Port Harcourt, Nigeria, using a distinctive approach we call the Surebloom Method.",
 };
 
 export default function AboutPage() {
@@ -71,11 +71,10 @@ function StoryBlock() {
             </p>
             <p>
               In the years since, we&apos;ve grown into a full school of nursery,
-              primary, and secondary, building on Montessori foundations to
-              develop what we now call, simply, the Surebloom Method. The
-              founding belief has not changed. Every child is a serious person.
-              Every day of childhood is precious. Every teacher is first, and
-              last, an observer.
+              primary, and secondary, developing what we now call, simply,
+              the Surebloom Method. The founding belief has not changed.
+              Every child is a serious person. Every day of childhood is
+              precious. Every teacher is first, and last, an observer.
             </p>
             <p>
               Today Surebloom is based in Nvigwe, Woji. Families are always

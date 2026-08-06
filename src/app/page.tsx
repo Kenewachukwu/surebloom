@@ -49,8 +49,8 @@ function Hero() {
           </h1>
 
           <p className="mt-6 md:mt-8 max-w-xl text-[16px] md:text-[18px] leading-relaxed text-cream-100/85 text-pretty">
-            Montessori-rooted teaching with a Nigerian and British curriculum,
-            in Port Harcourt.
+            Quality teaching and a Nigerian and British curriculum, in Port
+            Harcourt.
           </p>
 
           <div className="mt-8 md:mt-10 flex flex-col sm:flex-row sm:flex-wrap sm:items-center gap-3 sm:gap-4">
@@ -135,19 +135,18 @@ function MissionBlock() {
           </div>
 
           <div className="lg:col-span-6">
-            <Eyebrow>Our purpose</Eyebrow>
+            <Eyebrow>Our vision</Eyebrow>
             <h2 className="mt-6 font-display text-display-lg font-medium text-navy-950 text-balance">
-              We believe every child arrives
-              <span className="italic text-navy-700"> already brilliant.</span>
-              {" "}Our work is to keep that brilliance alive.
+              To produce students who are
+              <span className="italic text-navy-700"> excellent in academics</span> and other areas of life.
             </h2>
             <p className="mt-8 text-[17px] leading-relaxed text-ink-500 text-pretty">
-              We strongly believe in educating pupils for future success,
-              promoting academic excellence and equity, and building sound moral
-              and godly values in every child.
+              We are dedicated to developing students with sound intellectual
+              and moral values. Our methods spark and kindle the flame of
+              creativity in the minds of our students.
             </p>
             <p className="mt-4 text-[17px] leading-relaxed text-ink-500 text-pretty">
-              That conviction shapes how we teach, in an approach we call,
+              That mission shapes how we teach, in an approach we call,
               simply, the Surebloom Method.
             </p>
 
@@ -297,7 +296,7 @@ function MontessoriBlock() {
       <Container>
         <SectionHeader
           eyebrow="The Surebloom Method"
-          title="Montessori principles, practiced every day."
+          title="How we teach every child."
           intro="Our methodology sparks creativity and helps every child stand out. We understand that children learn differently, so we support each learner appropriately."
         />
 

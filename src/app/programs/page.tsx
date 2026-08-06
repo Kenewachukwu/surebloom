@@ -8,7 +8,7 @@ import { facilities, clubs } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Programs: Nursery, Primary & Secondary in Port Harcourt",
   description:
-    "Surebloom offers a full Montessori education from nursery through secondary school in Port Harcourt.",
+    "Surebloom offers a full education from nursery through secondary school in Port Harcourt, with a Nigerian and British curriculum.",
 };
 
 const programs = [
