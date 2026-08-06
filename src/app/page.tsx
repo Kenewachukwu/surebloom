@@ -287,8 +287,8 @@ function MontessoriBlock() {
     },
     {
       n: "04",
-      title: "Mixed-age communities",
-      copy: "Younger and older children learn together in the same classroom.",
+      title: "Nurture and mentoring",
+      copy: "Teaching paired with coaching, mentoring, and counselling, so every child is supported as a whole person.",
     },
   ];
   return (
