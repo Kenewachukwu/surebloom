@@ -219,6 +219,29 @@ function FacilitiesBlock() {
             </li>
           ))}
         </ul>
+
+        <div className="mt-16 grid grid-cols-1 sm:grid-cols-3 gap-4">
+          {[
+            { src: "/images/yb-science-lab.jpg", alt: "Students working in the science laboratory", label: "Science laboratory" },
+            { src: "/images/yb-boarding-house.jpg", alt: "The boarding house building", label: "Boarding house" },
+            { src: "/images/yb-building-exterior.jpg", alt: "Surebloom school building", label: "On our grounds" },
+          ].map((img) => (
+            <div key={img.src} className="relative overflow-hidden rounded-2xl aspect-[4/3] group">
+              <Image
+                src={img.src}
+                alt={img.alt}
+                fill
+                sizes="(min-width: 640px) 33vw, 100vw"
+                className="object-cover transition-transform duration-700 group-hover:scale-105"
+              />
+              <div className="absolute inset-x-0 bottom-0 p-3 bg-gradient-to-t from-navy-950/75 to-transparent">
+                <span className="text-[11px] font-medium uppercase tracking-[0.18em] text-cream-50">
+                  {img.label}
+                </span>
+              </div>
+            </div>
+          ))}
+        </div>
       </Container>
     </section>
   );

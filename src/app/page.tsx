@@ -274,22 +274,22 @@ function MontessoriBlock() {
     {
       n: "01",
       title: "Prepared environment",
-      copy: "Classrooms designed to invite discovery, with beautiful materials at child height and order that frees rather than constrains.",
+      copy: "Classrooms are set up for hands-on learning, with materials placed at child height.",
     },
     {
       n: "02",
       title: "Follow the child",
-      copy: "Guides observe carefully, then step in, respecting each child's rhythm, sensitive periods, and inner drive to learn.",
+      copy: "Guides observe each child and step in at the right moment, at the child's own pace.",
     },
     {
       n: "03",
       title: "Learn by doing",
-      copy: "Concrete materials before abstract concepts. Children hold ideas in their hands before they hold them in their minds.",
+      copy: "Children work with real materials before moving on to abstract ideas.",
     },
     {
       n: "04",
       title: "Mixed-age communities",
-      copy: "Younger children learn by watching. Older children learn by teaching. Everyone learns to belong.",
+      copy: "Younger and older children learn together in the same classroom.",
     },
   ];
   return (
@@ -297,14 +297,8 @@ function MontessoriBlock() {
       <Container>
         <SectionHeader
           eyebrow="The Surebloom Method"
-          title={
-            <>
-              A century of research.
-              <br />
-              <span className="italic text-navy-700">Proven in practice.</span>
-            </>
-          }
-          intro="Rooted in the Montessori tradition and refined every day in our Port Harcourt classrooms, our method rests on four ideas that shape everything we do."
+          title="Montessori principles, practiced every day."
+          intro="Our methodology sparks creativity and helps every child stand out. We understand that children learn differently, so we support each learner appropriately."
         />
 
         <div className="mt-16 md:mt-20 grid gap-x-10 gap-y-14 md:grid-cols-2 lg:grid-cols-4">
@@ -329,6 +323,8 @@ function SchoolMoments() {
     { src: "/images/temi.jpg", alt: "Student portrait", label: "Portraiture" },
     { src: "/images/library.jpg", alt: "The library", label: "Library" },
     { src: "/images/girl.jpg", alt: "A student concentrating", label: "Concentration" },
+    { src: "/images/yb-classroom.jpg", alt: "Pupils in a classroom at Surebloom", label: "Classroom" },
+    { src: "/images/yb-cultural-event.jpg", alt: "Students at a Surebloom school event", label: "School events" },
   ];
   return (
     <section className="bg-cream-50 py-24 md:py-36">
@@ -348,7 +344,7 @@ function SchoolMoments() {
           </Link>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4">
           {images.map((img) => (
             <div
               key={img.src}
@@ -358,7 +354,7 @@ function SchoolMoments() {
                 src={img.src}
                 alt={img.alt}
                 fill
-                sizes="(min-width: 768px) 25vw, 50vw"
+                sizes="(min-width: 768px) 33vw, 50vw"
                 className="object-cover transition-transform duration-700 group-hover:scale-105"
               />
               <div className="absolute inset-x-0 bottom-0 p-4 bg-gradient-to-t from-navy-950/80 to-transparent">
