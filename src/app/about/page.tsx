@@ -37,12 +37,12 @@ function PageHero() {
           <Eyebrow className="text-cream-50/85 [&>span]:bg-cream-50/50">About Surebloom</Eyebrow>
           <h1 className="mt-6 font-display text-display-xl font-medium leading-[1.02] text-balance">
             Raising children
-            <span className="italic text-azure-500"> who know who they are.</span>
+            <span className="italic text-azure-500"> who become themselves.</span>
           </h1>
           <p className="mt-8 max-w-2xl text-[18px] leading-relaxed text-cream-100/80 text-pretty">
-            We opened our doors with a small group of children and
-            an unshakeable belief: that a real education is not the filling of a
-            bucket, but the lighting of a fire.
+            Surebloom was built, and runs, on a simple belief: that real
+            education is not the filling of a bucket, but the igniting of a
+            fire.
           </p>
         </div>
       </Container>
@@ -59,26 +59,25 @@ function StoryBlock() {
             <div className="sticky top-32">
               <Eyebrow>Our story</Eyebrow>
               <h2 className="mt-5 font-display text-display-md font-medium text-navy-950 text-balance">
-                A school built by parents, for children.
+                A belief that never changed.
               </h2>
             </div>
           </div>
           <div className="lg:col-span-7 space-y-6 text-[17px] leading-relaxed text-ink-700">
             <p>
-              Surebloom opened its doors in Port Harcourt with
-              a simple conviction: that a real education is not the filling of a
-              bucket, but the lighting of a fire.
+              That conviction didn&apos;t stay a slogan. It became a full
+              school, one classroom at a time.
             </p>
             <p>
-              In the years since, we&apos;ve grown into a full school of nursery,
-              primary, and secondary, developing what we now call, simply,
-              the Surebloom Method. The founding belief has not changed.
-              Every child is a serious person. Every day of childhood is
-              precious. Every teacher is first, and last, an observer.
+              Today that&apos;s nursery, primary, and secondary, all built on
+              what we call the Surebloom Method. Every child here is taken
+              seriously. Every day of childhood matters. And every
+              teacher&apos;s first job, always, is to watch and understand
+              before stepping in.
             </p>
             <p>
-              Today Surebloom is based in Nvigwe, Woji. Families are always
-              welcome to visit and see how a day unfolds.
+              Surebloom is based in Nvigwe, Woji. Families are welcome to
+              visit and see a day unfold.
             </p>
           </div>
         </div>
@@ -101,8 +100,8 @@ function ValuesBlock() {
       <Container>
         <SectionHeader
           eyebrow="What we stand for"
-          title={<>Six values. One kind of graduate.</>}
-          intro="These aren't posters on the wall. They're how we hire, how we teach, and how we resolve every hard conversation."
+          title={<>The Surebloom core values.</>}
+          intro="What it means to be a Surebloomer."
         />
         <div className="mt-16 grid gap-x-8 gap-y-12 md:grid-cols-2 lg:grid-cols-3">
           {values.map((v, i) => (
@@ -130,13 +129,13 @@ function AwardsBlock() {
           <div className="lg:sticky lg:top-32">
             <Eyebrow>Recognition</Eyebrow>
             <h2 className="mt-5 font-display text-display-md font-medium text-navy-950 text-balance">
-              Our pupils, competing
-              <span className="italic text-navy-700"> internationally.</span>
+              Blooming
+              <span className="italic text-navy-700"> beyond our walls.</span>
             </h2>
             <p className="mt-6 text-[16.5px] leading-relaxed text-ink-500 max-w-md">
               Every so often, a Surebloom pupil enters an international
-              competition and does our school proud. Here&apos;s one we&apos;re
-              especially proud of.
+              competition and comes back with something to show for it.
+              Here&apos;s one we&apos;re especially proud of.
             </p>
           </div>
 
@@ -192,15 +191,15 @@ function ApproachBlock() {
               Rigour that feels like joy.
             </h2>
             <p className="mt-6 text-[17px] leading-relaxed text-ink-500">
-              The Surebloom Method is often mistaken for a soft alternative to
-              &ldquo;serious&rdquo; schooling. The opposite is true. Our children
-              work with real materials on real problems from age three. They read
-              early, write early, and, most importantly, they choose their work.
+              People assume the Surebloom Method is a softer path than
+              &ldquo;real&rdquo; school. It isn&apos;t. Children as young as
+              three work with real materials on real problems, reading and
+              writing early, and choosing their own work along the way.
             </p>
             <p className="mt-4 text-[17px] leading-relaxed text-ink-500">
-              By the time they finish primary, they have mastered concepts most
-              curricula wait until secondary to introduce, and they have done it
-              because they wanted to.
+              By the time they reach the end of primary, they&apos;ve
+              mastered ideas most schools save for secondary. Nobody made
+              them. They wanted to.
             </p>
             <div className="mt-8">
               <Button href="/programs" variant="secondary" arrow>See our programs</Button>

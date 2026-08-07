@@ -49,8 +49,8 @@ function Hero() {
           </h1>
 
           <p className="mt-6 md:mt-8 max-w-xl text-[16px] md:text-[18px] leading-relaxed text-cream-100/85 text-pretty">
-            Quality teaching and a Nigerian and British curriculum, in Port
-            Harcourt.
+            Every child taught to think for themselves, with a Nigerian and
+            British curriculum, in Port Harcourt.
           </p>
 
           <div className="mt-8 md:mt-10 flex flex-col sm:flex-row sm:flex-wrap sm:items-center gap-3 sm:gap-4">
@@ -141,9 +141,9 @@ function MissionBlock() {
               <span className="italic text-navy-700"> excellent in academics</span> and other areas of life.
             </h2>
             <p className="mt-8 text-[17px] leading-relaxed text-ink-500 text-pretty">
-              We are dedicated to developing students with sound intellectual
-              and moral values. Our methods spark and kindle the flame of
-              creativity in the minds of our students.
+              We build students with real intellectual depth and strong
+              character. Creativity isn&apos;t an add-on here. It shapes how
+              every lesson gets taught.
             </p>
             <p className="mt-4 text-[17px] leading-relaxed text-ink-500 text-pretty">
               That mission shapes how we teach, in an approach we call,
