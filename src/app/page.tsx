@@ -41,16 +41,14 @@ function Hero() {
       <Container className="relative flex min-h-[100svh] flex-col justify-end pb-14 pt-28 md:pb-24 md:pt-32">
         <div className="max-w-4xl">
           <h1 className="font-display text-display-2xl font-medium leading-[0.95] text-cream-50 text-balance">
-            Nursery to secondary.
+            A school for the
             <br />
-            <span className="italic text-azure-500">One Surebloom</span>
-            <br />
-            education.
+            <span className="italic text-azure-500">whole child.</span>
           </h1>
 
           <p className="mt-6 md:mt-8 max-w-xl text-[16px] md:text-[18px] leading-relaxed text-cream-100/85 text-pretty">
-            Every child taught to think for themselves, with a Nigerian and
-            British curriculum, in Port Harcourt.
+            Cognitive, moral, and creative growth, nursery through secondary,
+            with a Nigerian and British curriculum in Port Harcourt.
           </p>
 
           <div className="mt-8 md:mt-10 flex flex-col sm:flex-row sm:flex-wrap sm:items-center gap-3 sm:gap-4">
@@ -197,13 +195,13 @@ function ProgramsGrid() {
           <div className="max-w-2xl">
             <Eyebrow className="text-cream-50/80 [&>span]:bg-cream-50/30">Programs</Eyebrow>
             <h2 className="mt-5 font-display text-display-lg font-medium text-cream-50 text-balance">
-              Three levels. One
-              <span className="italic text-azure-500"> continuous journey.</span>
+              Built to carry them
+              <span className="italic text-azure-500"> further.</span>
             </h2>
           </div>
           <p className="max-w-md text-[16px] leading-relaxed text-cream-100/85">
-            From a child&apos;s first steps in nursery to their final year of
-            secondary school, every stage is prepared for the one after it.
+            Each level prepares your child for the next, so by secondary,
+            they&apos;re ready for exams, university, and beyond.
           </p>
         </div>
 
@@ -332,7 +330,7 @@ function SchoolMoments() {
           <div>
             <Eyebrow>Life at school</Eyebrow>
             <h2 className="mt-5 font-display text-display-md font-medium text-navy-950 text-balance max-w-xl">
-              What a normal day at Surebloom <span className="italic text-navy-700">looks like.</span>
+              A look inside <span className="italic text-navy-700">the school day.</span>
             </h2>
           </div>
           <Link href="/about" className="inline-flex items-center gap-2 text-[14px] font-medium text-navy-900 hover:text-navy-700 transition">
@@ -381,12 +379,12 @@ function AdmissionsCta() {
         <div className="max-w-2xl">
           <Eyebrow className="text-cream-50/85 [&>span]:bg-cream-50/40">Get in touch</Eyebrow>
           <h2 className="mt-6 font-display text-display-lg font-medium text-cream-50 text-balance">
-            Let&apos;s talk about
-            <span className="italic text-azure-500"> your child&apos;s education.</span>
+            Ready to enrol?
+            <span className="italic text-azure-500"> Let&apos;s talk.</span>
           </h2>
           <p className="mt-6 text-[17px] leading-relaxed text-cream-100/85 max-w-xl text-pretty">
-            Reach out and we&rsquo;ll be in touch personally to talk through
-            enrolment, fees, and next steps.
+            Reach out for fees, next steps, and everything else you need to
+            know.
           </p>
           <div className="mt-10 flex flex-col sm:flex-row sm:flex-wrap gap-3 sm:gap-4">
             <Button href="/contact" variant="accent" size="lg" arrow className="w-full sm:w-auto justify-center">
